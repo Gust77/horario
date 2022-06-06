@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: lightgoldenrodyellow;
+    text-transform: uppercase;
+}
+
+.cabeçalho{
+    background: #ffff9d;
+    padding: 30px;
+    width: 98%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.titulo{
+    color: black;
+    text-transform: uppercase;
+}
+
+.area_relogio{
+    width: 50%;
+    height: 50vh;
+    background: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.363);
+    margin-bottom: 15px;
+}
+
+.periodo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.momento{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+footer{
+    font-style: italic;
+}
+
+.rodape{
+    color: black;
+}
